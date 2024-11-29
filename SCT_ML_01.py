@@ -2,8 +2,8 @@ import pandas as pd
 from sklearn.linear_model import LinearRegression
 from sklearn.impute import SimpleImputer
 
-train = pd.read_csv('E:\\House price\\train.csv')
-test = pd.read_csv('E:\\House price\\test.csv')
+train = pd.read_csv('D:\\House price\\train.csv')
+test = pd.read_csv('D:\\House price\\test.csv')
 
 X = train[['LotArea', 'BsmtFinSF1', 'BsmtFinSF2', 'BsmtUnfSF', 'TotalBsmtSF', '1stFlrSF', '2ndFlrSF',
            'LowQualFinSF', 'GrLivArea', 'FullBath', 'HalfBath', 'BedroomAbvGr', 'GarageArea', 'WoodDeckSF',
